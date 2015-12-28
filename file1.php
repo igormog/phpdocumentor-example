@@ -21,3 +21,11 @@ function sumOfSquares($arr) {
     }
     return $total;
 }
+
+
+/**
+ * This is a class-level DocBlock
+ * 
+ * @package    Some_Package
+ * @subpackage Other
+ */
