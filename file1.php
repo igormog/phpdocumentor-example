@@ -29,3 +29,5 @@ function sumOfSquares($arr) {
  * @package    Some_Package
  * @subpackage Other
  */
+class SomeClass {
+}
