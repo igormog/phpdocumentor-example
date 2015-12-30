@@ -31,3 +31,9 @@ function sumOfSquares($arr) {
  */
 class SomeClass {
 }
+
+/**
+ * An example class
+ *
+ * The class is empty for the sake of this example.
+ *
