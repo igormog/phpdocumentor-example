@@ -60,3 +60,20 @@ function getUser($user, PDO $pdo)
     }
     return null;
 }
+
+
+/**
+ * My function
+ *
+ * Here is an inline example:
+ * <code>
+ * <?php
+ * echo strlen('6');
+ * ?>
+ * </code>
+ * @example /path/to/example.php How to use this function
+ * @example anotherexample.inc This example is in the "examples" subdirectory
+ */
+function mine()
+{
+}
