@@ -77,3 +77,36 @@ function getUser($user, PDO $pdo)
 function mine()
 {
 }
+
+/**
+ * example of basic @return usage
+ * @return mixed 
+ */
+function function1($baz)
+{
+   if ($baz)
+   {
+      $a = 5;
+   } else
+   {
+      $a = array(1,4);
+   }
+   return $a;
+}
+
+
+/**
+ * example of showing multiple possible return types
+ * @return int|string could be an int, could be a string
+ */
+function function2($foo)
+{
+   if ($foo)
+   {
+      return 0;
+   }
+   else
+   {
+      return "zero";
+   }
+}
