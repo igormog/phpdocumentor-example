@@ -53,3 +53,10 @@ class Example {
  * @param PDO $pdo A valid PDO object
  * @return User Returns User object or null if not found
  */
+function getUser($user, PDO $pdo)
+{
+    if ($isFound) {
+        return new User(...);
+    }
+    return null;
+}
