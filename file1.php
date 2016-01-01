@@ -110,3 +110,15 @@ function function2($foo)
       return "zero";
    }
 }
+
+
+class class1
+{
+   /**
+    * example of documenting a method, and using optional description with @return
+    * @return string de-html_entitied string (no entities at all)
+    */
+   function bar($foo)
+   {
+      return strtr($foo,array_flip(get_html_translation_table(HTML_ENTITIES)));
+   }
