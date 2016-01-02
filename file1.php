@@ -122,3 +122,21 @@ class class1
    {
       return strtr($foo,array_flip(get_html_translation_table(HTML_ENTITIES)));
    }
+/**
+    * example of using @return with a class name
+    * @param integer even or odd integer
+    * @return Parser|false phpDocumentor Parser object or error
+    */
+   function &factory($number)
+   {
+      $returnval = true;
+      if ($number % 2)
+      {
+          $returnval = new Parser;
+      } else
+      {
+          $returnval = false;
+      }
+      return $returnval;
+   }
+}
