@@ -25,13 +25,22 @@
  * @deprecated File deprecated in Release 2.0.0
  */
 
+
 /**
  * This is a "Docblock Comment," also known as a "docblock."  The class'
  * docblock, below, contains a complete description of how to write these.
  */
 require_once 'PEAR.php';
 
+
 /**
  * Methods return this if they succeed
  */
 define('NET_SAMPLE_OK', 1);
+
+
+/**
+ * The number of objects created
+ * @global int $GLOBALS['_NET_SAMPLE_Count']
+ */
+$GLOBALS['_NET_SAMPLE_Count'] = 0;
