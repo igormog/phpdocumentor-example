@@ -30,3 +30,8 @@
  * docblock, below, contains a complete description of how to write these.
  */
 require_once 'PEAR.php';
+
+/**
+ * Methods return this if they succeed
+ */
+define('NET_SAMPLE_OK', 1);
