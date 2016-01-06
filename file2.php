@@ -92,3 +92,14 @@ $GLOBALS['_NET_SAMPLE_Count'] = 0;
  * @since      Class available since Release 1.2.0
  * @deprecated Class deprecated in Release 2.0.0
  */
+
+class Net_Sample
+{
+    /**
+     * The status of foo's universe
+     *
+     * Potential values are 'good', 'fair', 'poor' and 'unknown'.
+     *
+     * @var string
+     */
+    var $foo = 'unknown';
