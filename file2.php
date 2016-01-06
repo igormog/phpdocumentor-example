@@ -103,3 +103,14 @@ class Net_Sample
      * @var string
      */
     var $foo = 'unknown';
+
+    /**
+     * The status of life
+     *
+     * Note that names of private properties or methods must be
+     * preceeded by an underscore.
+     *
+     * @var bool
+     * @access private
+     */
+    var $_good = true;
