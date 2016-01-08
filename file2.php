@@ -198,3 +198,20 @@ class Net_Sample
      * @since Method available since Release 1.2.0
      * @deprecated Method deprecated in Release 2.0.0
      */
+function setFoo($arg1, $arg2 = 0)
+    {
+        /*
+         * This is a "Block Comment."  The format is the same as
+         * Docblock Comments except there is only one asterisk at the
+         * top.  phpDocumentor doesn't parse these.
+         */
+        if ($arg1 == 'good' || $arg1 == 'fair') {
+            $this->foo = $arg1;
+            return 1;
+        } elseif ($arg1 == 'poor' && $arg2 > 1) {
+            $this->foo = 'poor';
+            return 2;
+        } else {
+            return false;
+        }
+    }
