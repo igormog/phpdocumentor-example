@@ -199,5 +199,15 @@ class phptestclass
 	*/
 	var $sample;
 
+	/**
+	* The class constructor
+	*
+	* This sets up the class and does other random stuff
+	*/
+	function phptestclass
+	{
+		$this->sample = "test";
+	}
+
 
 }
