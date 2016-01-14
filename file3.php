@@ -42,3 +42,17 @@ function foo()
 * @package	package name
 * @subpackage	sub package name, groupings inside of a project
 */
+
+
+/**
+* return the day of the week
+*
+* @param string $month 3-letter Month abbreviation
+* @param integer $day day of the month
+* @param integer $year year
+* @return integer 0 = Sunday, value returned is from 0 (Sunday) to 6 (Saturday)
+*/
+function day_week($month, $day, $year)
+{
+...
+}
