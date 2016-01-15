@@ -54,5 +54,34 @@ function foo()
 */
 function day_week($month, $day, $year)
 {
-...
+
+}
+
+
+/**
+* class 1
+* 
+* example of {@link http://phpdocu.sourceforge.net Inline linking to a website}
+* example of use of the :: scope operator
+* @see subclass::method()
+*/
+class main_class
+{
+	/**
+	* example of linking to same class, outputs "function main_class::parent_method()
+	* @see function parent_method
+	*/
+	$var foo = 3;
+
+	/**
+	* subclass inherits this method.
+	* example of a word which is either a constant or class name, in this case a classname
+	* @see subclass
+	* @see subclass::$foo
+	*/
+
+	function parent_method()
+	{
+		if ($this->foo==9) die;
+	}
 }
