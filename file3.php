@@ -209,5 +209,27 @@ class phptestclass
 		$this->sample = "test";
 	}
 
+	/**
+	* A test function
+	*
+	* This function returns {@link $sample}
+	*
+	* @see set(), $sample
+	* @return string
+	*/
+	function test()
+	{
+		return $this->sample;
+	}
 
+	/**
+	* Set the sample var
+	*
+	* @param string $var
+	* @see phptestclass::$sample, phptestclass::test()
+	*/
+	function set($var)
+	{
+		$this->sample = $var;
+	}
 }
