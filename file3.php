@@ -85,3 +85,19 @@ class main_class
 		if ($this->foo==9) die;
 	}
 }
+
+
+/**
+* this class extends main_class
+* @see main_class
+*/
+subclass extends main_class
+{
+	/**
+	* bar.
+	* example of same class lookup - see will look through parent hierarchy to find the method in {@link main_class}
+	* the above inline link tag will parse as main_class
+	* @see parent_method()
+	*/
+	var $foo = 9;
+}
