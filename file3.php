@@ -101,3 +101,11 @@ subclass extends main_class
 	*/
 	var $foo = 9;
 }
+
+
+/**
+* class 1
+* 
+* example of {@link http://phpdocu.sourceforge.net}
+* displays as "example of http://phpdocu.sourceforge.net"
+*/
