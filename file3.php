@@ -109,3 +109,15 @@ subclass extends main_class
 * example of {@link http://phpdocu.sourceforge.net}
 * displays as "example of http://phpdocu.sourceforge.net"
 */
+class main_class
+{
+
+	/**
+	* This function sends the user to {@link http://www.sf.net The SourceForge Website}
+	* displays as "This function send the user to The SourceForge Website"
+	*/
+	function goto_sourceforge()
+	{
+		header("Location: http://www.sf.net");
+	}
+}
