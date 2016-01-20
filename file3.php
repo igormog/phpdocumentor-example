@@ -121,3 +121,9 @@ class main_class
 		header("Location: http://www.sf.net");
 	}
 }
+
+
+/**
+* this class extends {@link main_class}
+* displays as "this class extends main_class"
+*/
