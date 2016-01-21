@@ -127,3 +127,11 @@ class main_class
 * this class extends {@link main_class}
 * displays as "this class extends main_class"
 */
+subclass extends main_class
+{
+	/**
+	* bar.
+	* this class inherits {@link main_class::goto_sourceforge()}
+	*/
+	var $foo = 9;
+}
