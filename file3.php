@@ -135,3 +135,10 @@ subclass extends main_class
 	*/
 	var $foo = 9;
 }
+
+
+/**
+* Page-level DocBlock
+*
+* This procedural page contains many functions that blah blah blah
+*/
