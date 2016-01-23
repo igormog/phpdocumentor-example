@@ -142,3 +142,9 @@ subclass extends main_class
 *
 * This procedural page contains many functions that blah blah blah
 */
+/**
+* function or define DocBlock
+*/
+function blah()
+{
+}
