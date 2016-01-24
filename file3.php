@@ -148,3 +148,11 @@ subclass extends main_class
 function blah()
 {
 }
+
+
+/**
+* Almost a Page-level DocBlock
+*
+* This procedural page contains many functions that blah blah blah
+*/
+define("screwedup",66);
