@@ -156,3 +156,12 @@ function blah()
 * This procedural page contains many functions that blah blah blah
 */
 define("screwedup",66);
+
+
+/**
+* function or define DocBlock
+*/
+function blah()
+{
+...
+}
