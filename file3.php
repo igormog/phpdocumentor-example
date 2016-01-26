@@ -163,5 +163,7 @@ define("screwedup",66);
 */
 function blah()
 {
-...
 }
+
+
+define("screwedup",66);
