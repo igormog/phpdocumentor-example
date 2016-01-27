@@ -167,3 +167,8 @@ function blah()
 
 
 define("screwedup",66);
+
+
+/**
+* DocBlock will document function blah()
+*/
