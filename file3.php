@@ -172,3 +172,10 @@ define("screwedup",66);
 /**
 * DocBlock will document function blah()
 */
+// random comment
+$a += strpos(get_another_thingy(66,$ufta));
+$ark->build($a);
+// etc. etc.
+function blah()
+{
+}
