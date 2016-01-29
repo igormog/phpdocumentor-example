@@ -179,3 +179,14 @@ $ark->build($a);
 function blah()
 {
 }
+
+
+/**
+* A sample class
+*
+* This class is just random php used as a {@link http://phpdocu.sourceforge.net phpdoc} example
+*
+* @version 1.0
+* @author Joshua Eichorn <jeichorn@phpdoc.org>
+* @project test
+*/
