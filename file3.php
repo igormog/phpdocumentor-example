@@ -190,3 +190,14 @@ function blah()
 * @author Joshua Eichorn <jeichorn@phpdoc.org>
 * @project test
 */
+class phptestclass
+{
+	/**
+	* A sample class variable
+	* @access private
+	* @var string
+	*/
+	var $sample;
+
+
+}
